@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +10,42 @@
         border-bottom: 1px solid #000;
         margin: 0 auto;
        }
+       #player {
+        width: 50px;
+        height: 50px;
+        background-image: url(./asets/img/mar.png);
+        background-size: 50px 50px;
+        position: relative;
+        top: 150;
+
+       } 
+       #vrag{
+        width: 40px;
+        height: 40px;
+
+       }
+
+       .start{
+        width: 600px;
+        height: 40;
+        display: block;
+        margin: 0 auto;
+
+       }
+
+
        
        </style>
     
 
-    <script src=".script.js" defer></script>
+    <script src="script.js" defer></script>
     <title>doc</title>
 </head>
 <body>
    
     <div class="game">
-    <div id="plaer"></div>
-    <div id="dumper"></div> 
+    <div id="player"></div>
+    <div id="vrag"></div> 
     
    </div> 
    <button class="start">start</button>
