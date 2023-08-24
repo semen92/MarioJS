@@ -41,6 +41,44 @@
         display: block;
         margin: 0 auto;
 
+
+       }
+       .animate-kaktus{
+         animation: kaktusmove 2s infinite linear ; 
+         @keyframes kaktusmove {
+            0%{
+               left: 525px
+            }
+            100%{
+               left: -40px
+
+            }
+
+            
+         }
+       }
+       .mario-jump{
+         animation: jump 0.3s linear;
+
+       }
+       @keyframes jump {
+         0%{
+               top: 150px
+            }
+            20%{
+               top: 100px;
+            }
+            50%{
+               top: 50px;
+
+            }
+            80%{
+               top: 100px;
+            }
+            100%{
+               top: 150px;
+
+            }
        }
 
  
